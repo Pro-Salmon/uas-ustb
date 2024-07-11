@@ -52,7 +52,7 @@ const Jurusan = () => {
                       <p>{jurusanData[activeJurusan].deskripsi}</p>
                     </div>
                     <div className="col">
-                      <img src={jurusanData[activeJurusan].image} alt={jurusanData[activeJurusan].nama} style={{ height: '250px', width: '100%', objectFit: 'cover' }} />
+                      <img src={`${process.env.PUBLIC_URL}/image/${jurusanData[activeJurusan].image}`} alt={jurusanData[activeJurusan].nama} style={{ height: '250px', width: '100%', objectFit: 'cover' }} />
                     </div>
                   </div>
                 </div>

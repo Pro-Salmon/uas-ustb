@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="container-fluid d-none d-lg-block">
                 <div className="row align-items-center py-4 px-xl-5">
                     <div className="col-lg-3">
-                        <Link to="/" className="text-decoration-none">
+                        <Link to="/uas-ustb" className="text-decoration-none">
                             <img className="img-fluid mx-auto mb-3" src={`./image/logo-universitas-satya-terra-bhinneka.png`} alt="" />
                         </Link>
                     </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
                             </button>
                             <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                 <div className="navbar-nav py-0">
-                                    <Link to="/" className="nav-item nav-link active">Home</Link>
+                                    <Link to="/uas-ustb" className="nav-item nav-link active">Home</Link>
                                     <Link to="/profil" className="nav-item nav-link">Profil</Link>
                                     <Link to="/jurusan" className="nav-item nav-link">Jurusan</Link>
                                     <Link to="/mitra" className="nav-item nav-link">Mitra</Link>

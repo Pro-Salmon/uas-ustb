@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <main>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/uas-ustb">
               <Dashboard />
             </Route>
             <Route exact path="/profil">

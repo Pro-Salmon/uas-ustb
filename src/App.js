@@ -6,6 +6,7 @@ import Profil from './Page/Profil';
 import Mitra from './Page/Mitra';
 import Contact from './Page/Contact';
 import Jurusan from './Page/Jurusan';
+import NotFound from './Page/NotFound';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route exact path="/kontak">
               <Contact />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </main>
